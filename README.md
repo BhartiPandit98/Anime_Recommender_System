@@ -17,3 +17,12 @@ With each anime, we got the following:
 - Episodes - How many episodes in this show (1 if movie)
 - Rating - Average rating out of 10 for this anime
 - Members - Number of community members that are in this anime's "group"
+
+# Data Cleaning
+- Made columns for if different genres were present in the anime
+- Imputed the missing values in genre with their mode value
+- Found the genres of the user input anime and merged them together
+
+# Model Building
+First, I seperated the genres corresponding to movie id. After merging user input with the genre, the rating of the user and the genre of each anime was multiplied and average was taken in order to get the user's weighted rating of the genres.
+In order to give recommendation the weighted rating of the genre was multiplied by the genre of each anime and then sorted in descending order to give the top 5 recommendations.
