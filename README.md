@@ -12,8 +12,8 @@
 With each anime, we got the following:
 - Anime Id - Unique identifier of each anime
 - Name - Name of the anime
-- Genre - Genres to which anime belongs
-- Type -  
-- Episodes
-- Rating
-- Members
+- Genre - Comma separated list of genres for this anime
+- Type -  Movie, TV, OVA, etc
+- Episodes - How many episodes in this show (1 if movie)
+- Rating - Average rating out of 10 for this anime
+- Members - Number of community members that are in this anime's "group"
