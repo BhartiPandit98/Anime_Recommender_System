@@ -23,6 +23,10 @@ With each anime, we got the following:
 - Imputed the missing values in genre with their mode value
 - Found the genres of the user input anime and merged them together
 
+# EDA
+
+
+
 # Model Building
 First, I seperated the genres corresponding to movie id. After merging user input with the genre, the rating of the user and the genre of each anime was multiplied and average was taken in order to get the user's weighted rating of the genres.
 In order to give recommendation the weighted rating of the genre was multiplied by the genre of each anime and then sorted in descending order to give the top 5 recommendations.
