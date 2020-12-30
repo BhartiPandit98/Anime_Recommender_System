@@ -25,7 +25,11 @@ With each anime, we got the following:
 
 # EDA
 
+![alt](https://github.com/BhartiPandit98/Anime_Recommender_System/blob/main/Anime_Type_Distribution.JPG)
 
+![alt](https://github.com/BhartiPandit98/Anime_Recommender_System/blob/main/Genre_Distribution.JPG)
+
+![alt](https://github.com/BhartiPandit98/Anime_Recommender_System/blob/main/Pivot_Table.JPG)
 
 # Model Building
 First, I seperated the genres corresponding to movie id. After merging user input with the genre, the rating of the user and the genre of each anime was multiplied and average was taken in order to get the user's weighted rating of the genres.
